@@ -1,0 +1,19 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.2",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec 'test/**/*.js'",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
