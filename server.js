@@ -7,4 +7,4 @@ app.get('/:date', (req, res) => {
     res.send(timestamp.getTimestamp(req.params.date))
 });
 
-app.listen(3001);
+app.listen(process.env.PORT || 3001);
